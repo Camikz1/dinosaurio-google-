@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinosaurio - Juego</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🦖 DINOSAURIO</h1>
+            <div class="info">
+                <div class="score">
+                    <span>PUNTUACIÓN</span>
+                    <p id="score">0</p>
+                </div>
+                <div class="highscore">
+                    <span>MEJOR</span>
+                    <p id="highscore">0</p>
+                </div>
+                <div class="level">
+                    <span>NIVEL</span>
+                    <p id="level">1</p>
+                </div>
+            </div>
+        </div>
+
+        <canvas id="gameCanvas"></canvas>
+
+        <div class="controls">
+            <p class="control-text">CONTROLES:</p>
+            <div class="key-display">
+                <span class="key">ESPACIO</span> o
+                <span class="key">↑</span> para saltar
+            </div>
+            <div class="key-display">
+                <span class="key">↓</span> para agacharse
+            </div>
+        </div>
+
+        <div class="status" id="status"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
